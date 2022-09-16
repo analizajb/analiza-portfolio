@@ -1,7 +1,9 @@
 import './App.css';
 import About from './components/About';
 import Footer from './components/Footer';
-import Resume from "./components/Resume"
+import Projects from './components/Projects';
+import Resume from "./components/Resume";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
        <main>
         <About></About>
         <Resume></Resume>
+        <Projects></Projects>
       </main>
       <Footer />
     </div>
