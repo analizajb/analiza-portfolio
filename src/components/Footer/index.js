@@ -21,7 +21,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/analizajb"
-                style={{ color: "brown" }}
+                style={{ color: "black" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -32,7 +32,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/analiza-boehning/"
-                style={{ color: "brown" }}
+                style={{ color: "black" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -42,7 +42,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/analizajb"
-                style={{ color: "brown" }}
+                style={{ color: "black" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
