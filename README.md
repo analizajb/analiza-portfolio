@@ -22,7 +22,7 @@ I've created an application that holds an overview about who I am and the techni
 
 ## Screenshot
 
-<img src='./assets/screenshot.png' alt='screenshot' width=500 />
+<img src='screenshot.png' alt='screenshot' width=500 />
 
 ## Page Link
 
