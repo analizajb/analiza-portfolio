@@ -1,4 +1,4 @@
-# Analiza Portofolio
+# Analiza Portfolio
 
 An application that encompasses all my skills and background.
 
