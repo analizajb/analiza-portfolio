@@ -1,4 +1,3 @@
-
 import "./App.css";
 import {
   BrowserRouter as Router,
@@ -19,15 +18,13 @@ function App() {
   return (
     <Router>
         <Navbar />
-        <div>
         <Routes>
-        <Route path="*" element={<Navigate to="/"/>} />
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        </div>
         <Footer />
     </Router>
   );
