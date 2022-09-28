@@ -21,10 +21,11 @@ function App() {
         <Navbar />
         <div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         </div>
