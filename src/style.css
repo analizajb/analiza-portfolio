@@ -215,6 +215,7 @@ ul {
 /* FOOTER */
 
 .footer {
+  position: fixed;
   background-color: white;
   bottom: 0 !important;
   padding-top: 10px !important;
