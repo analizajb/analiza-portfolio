@@ -26,7 +26,6 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
           <Route exact path="/" element={<Home />} />
-          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         </div>
         <Footer />
